@@ -171,4 +171,5 @@ RUN mkdir -p /etc/skel/.mozilla/firefox/profile.default
 COPY pam_ldap.conf /etc/pam_ldap.conf
 COPY ldap.conf /etc/ldap.conf
 COPY nslcd.conf /etc/nslcd.conf
+RUN chmod 600 /etc/nslcd.conf
 COPY mkhomedir /usr/share/pam-configs/mkhomedir
