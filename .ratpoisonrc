@@ -1,0 +1,7 @@
+startup_message off
+
+escape C-e
+
+bind f exec firefox
+
+exec firefox
