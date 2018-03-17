@@ -99,7 +99,7 @@ RUN apt-get update \
     && apt-get clean
 
 # firefox installation
-# FIREFOX_VERSION 59.0
+# FIREFOX_VERSION 59.0.1
 RUN apt-get update \
     && apt-get install --yes --no-install-recommends \
         wget \
